@@ -1,0 +1,57 @@
+.navbarCont {
+  background-color: #f9f9f9;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbarContInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 97%;
+  padding: 10px 0;
+}
+.navItems {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navItems .name {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.profile {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  background-color: #091e46;
+}
+
+@media (max-width: 900px) {
+  .navbarHamburger {
+    margin-right: 10px;
+    height: 2rem;
+    width: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.navbarHamburger svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.navContentLeft {
+  display: flex;
+  align-items: center;
+}
+
+.profileCont {
+  display: flex;
+  align-items: center;
+}

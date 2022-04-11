@@ -1,0 +1,11 @@
+.upload {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 18px;
+    color: #B3C0CE;
+}

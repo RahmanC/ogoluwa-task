@@ -1,0 +1,96 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap'); */
+
+/* .input-text{
+    @apply font-poppins bg-transparent border border-t-0 border-l-0 border-r-0 focus:outline-none text-white tracking-wide;
+} */
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    padding: 50px;
+
+}
+
+.main_container {
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .image {
+      position: relative;
+  }
+
+  .text {
+      position: absolute;
+      bottom: 95px;
+      right: 103px;
+      font-size: 36px;
+      color: #ffffff;
+  }
+
+  .content {
+      padding: 50px;
+  }
+
+.title {
+    font-size: 36px;
+    color: #272262;
+    font-weight: 700;
+}
+
+.heading {
+    font-size: 26px;
+    color: #282C4099;
+}
+
+.label {
+    color: #82869A;
+    font-size: 20px;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid #EBEBEB;
+}
+
+.input:active {
+    border: none;
+    font-weight: bold;
+    color: #373C56;
+}
+
+.check {
+    border-radius: 5px;
+    background-color: #EBEBEB;
+}
+
+.checkText {
+    color: #82869A99;
+}
+
+.button,
+.button:active,
+.button:hover {
+    background-color: #3DB0FF;
+    border-radius: 8px;
+    border: 1px solid #3DB0FF;
+    padding: 20px 0px;
+}
+
+.account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.line {
+    border-bottom: 1px solid #C4C4C480;
+    width: 30%;
+}

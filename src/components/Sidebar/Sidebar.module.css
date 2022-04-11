@@ -1,0 +1,136 @@
+.logoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  
+}
+
+.host {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.active {
+  background-color: #081494;
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  width: 90%;
+  height: 90%;
+}
+
+.titleActive {
+  color: #000000;
+}
+
+.sidebarCont{
+  background-color: #F9F9F9;
+  padding: 30px 10px;
+
+}
+
+  .sidebarContent {
+    color: lightgray;
+    height: auto;
+    margin-top: 30px;
+   
+  }
+  
+  .sidebarContentInner {
+    margin: auto;
+    max-width: 70%;
+  }
+  
+  
+  
+  .sidebarLinks {
+    font-size: 14px;
+    text-decoration: none;
+    color: #C4C4C4;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .sidebarLinks:hover {
+    color: #000000;
+  }
+  
+  .sidebarLinks p:nth-of-type(1) {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  
+  .sidebarLinks p:nth-of-type(2) {
+    padding-top: 5px;
+  }
+  
+  .sidebarLinks p:nth-of-type(3) {
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+  }
+
+  .inner{
+    text-decoration: none;
+    color: #081494;
+  }
+  
+  .sidebarInner {
+    margin: 0 0 15px 0;
+    padding-left: 50px;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.1px;
+  }
+  
+  .logoutBtn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  
+  .logoutBtn p:nth-of-type(1) {
+    font-size: 18px;
+    margin-right: 15px;
+  }
+  
+  .logoutBtn p:nth-of-type(2) {
+    font-size: 14px;
+    padding-top: 5px;
+  }
+
+  .payment {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    background-color: #081494;
+    color: white;
+    padding: 10px 14px;
+  }
+  
+ 
+  
+  
+  /* Reponsiveness */
+  @media (max-width: 1024px) {
+    .logoutBtn {
+      margin-top: 10px;
+    }
+  }
+  
+  
